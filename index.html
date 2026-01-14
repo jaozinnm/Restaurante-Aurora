@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurante Aurora • Gastronomia com História</title>
+  <meta name="description" content="Restaurante Aurora: gastronomia autoral, história e experiência no centro da cidade. Reserve sua mesa." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="Ir para o início">
+        <!-- Troque pelo seu logo -->
+        <img src="./assets/logo-placeholder.png" alt="Restaurante Aurora" class="brand-logo">
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navegação principal">
+        <a href="#historia">História</a>
+        <a href="#menu">Menu</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#galeria">Galeria</a>
+        <a class="nav-cta" href="#reservas">Reservas</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="nav-mobile" id="navMobile" aria-label="Menu mobile">
+      <a href="#historia">História</a>
+      <a href="#menu">Menu</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#galeria">Galeria</a>
+      <a class="nav-cta" href="#reservas">Reservas</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="kicker">Gastronomia • Arte • Experiência</p>
+          <h1>Restaurante Aurora —<br> sabor com história.</h1>
+          <p class="lead">
+            Um espaço elegante e acolhedor para quem valoriza ingredientes frescos,
+            cozinha autoral e uma noite memorável.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#reservas">Reservar mesa</a>
+            <a class="btn btn-ghost" href="#menu">Ver menu</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-title">Horários</span>
+              <span class="meta-value">Ter–Dom • 12h–23h</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-title">Local</span>
+              <span class="meta-value">Av. Boa Viagem, 1720 – Boa Viagem, Recife</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <!-- Troque por imagem real -->
+          <div class="image-frame">
+            <img src="./assets/web-la-catedral-hero-placeholder.jpeg" alt="Ambiente do restaurante" />
+          </div>
+          <div class="stamp">
+            <span>Chef’s</span>
+            <strong>Selection</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BLOCO 1: HISTÓRIA ===== -->
+    <section class="block" id="historia">
+      <div class="container split">
+        <div class="split-text">
+          <h2>Nossa história</h2>
+          <p>
+            Inspirado por arquitetura clássica e pela cultura local, o Aurora nasceu para unir
+            tradição e criatividade. Cada detalhe do salão foi pensado para criar uma experiência
+            intimista — do primeiro brinde à última sobremesa.
+          </p>
+          <p>
+            Trabalhamos com sazonalidade e fornecedores selecionados para garantir qualidade real
+            em cada prato — com uma apresentação elegante e uma assinatura única.
+          </p>
+
+          <div class="mini-cards">
+            <div class="mini-card">
+              <strong>Ingredientes</strong>
+              <span>Seleção diária</span>
+            </div>
+            <div class="mini-card">
+              <strong>Ambiente</strong>
+              <span>Clássico & moderno</span>
+            </div>
+            <div class="mini-card">
+              <strong>Experiência</strong>
+              <span>Atendimento premium</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="split-media">
+          <div class="image-frame">
+            <img src="./assets/story-placeholder.webp" alt="Detalhes do ambiente" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BLOCO 2: MENU ===== -->
+    <section class="block alt" id="menu">
+      <div class="container split reverse">
+        <div class="split-media">
+          <div class="image-frame">
+            <img src="./assets/menu-placeholder.jpeg" alt="Prato do menu" />
+          </div>
+        </div>
+
+        <div class="split-text">
+          <h2>Nosso menu</h2>
+          <p>
+            Um cardápio enxuto e bem pensado: entradas leves, principais marcantes e sobremesas
+            autorais. Temos opções vegetarianas e sugestões do chef.
+          </p>
+
+          <div class="menu-preview">
+            <div class="menu-item">
+              <span class="dish">Entrada da casa</span>
+              <span class="dots"></span>
+              <span class="price">R$ 32</span>
+            </div>
+            <div class="menu-item">
+              <span class="dish">Risoto de сезон</span>
+              <span class="dots"></span>
+              <span class="price">R$ 58</span>
+            </div>
+            <div class="menu-item">
+              <span class="dish">Corte especial</span>
+              <span class="dots"></span>
+              <span class="price">R$ 79</span>
+            </div>
+            <div class="menu-item">
+              <span class="dish">Sobremesa autoral</span>
+              <span class="dots"></span>
+              <span class="price">R$ 28</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Baixar cardápio (PDF)</a>
+            <a class="btn" href="#reservas">Reservar agora</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BLOCO 3: EVENTOS ===== -->
+    <section class="block" id="eventos">
+      <div class="container split">
+        <div class="split-text">
+          <h2>Eventos especiais</h2>
+          <p>
+            Aniversários, confraternizações, jantares corporativos e datas comemorativas.
+            Montamos menus personalizados e cuidamos de toda a experiência.
+          </p>
+
+          <ul class="list">
+            <li>Reservas para grupos</li>
+            <li>Menu fechado sob consulta</li>
+            <li>Opções com harmonização</li>
+            <li>Equipe dedicada no atendimento</li>
+          </ul>
+
+          <a class="btn" href="#reservas">Solicitar proposta</a>
+        </div>
+
+        <div class="split-media">
+          <div class="image-frame">
+            <img src="./assets/event-placeholder.jpeg" alt="Mesa posta para evento" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERIA ===== -->
+    <section class="gallery" id="galeria">
+      <div class="container">
+        <div class="section-head">
+          <h2>Galeria</h2>
+          <p>Alguns cliques do ambiente, pratos e detalhes.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="g-item"><img src="./assets/g1.jpeg" alt="Galeria 1"></div>
+          <div class="g-item"><img src="./assets/g2.jpeg" alt="Galeria 2"></div>
+          <div class="g-item"><img src="./assets/g3.jpeg" alt="Galeria 3"></div>
+          <div class="g-item"><img src="./assets/g4.jpeg" alt="Galeria 4"></div>
+          <div class="g-item"><img src="./assets/g5.jpeg" alt="Galeria 5"></div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESERVAS / CONTATO ===== -->
+    <section class="reserve" id="reservas">
+      <div class="container reserve-grid">
+        <div class="reserve-card">
+          <h2>Reservas</h2>
+          <p>
+            Reserve com antecedência para garantir o melhor horário. Para eventos e grupos,
+            informe quantidade de pessoas e data desejada.
+          </p>
+
+          <div class="reserve-actions">
+            <a class="btn" href="https://wa.me/558199699995" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-ghost" href="mailto:contato@seudominio.com">E-mail</a>
+          </div>
+
+          <div class="reserve-info">
+            <div><strong>Endereço:</strong> Rua Exemplo, 123 • Recife/PE</div>
+            <div><strong>Telefone:</strong> (81) 99699-9995</div>
+          </div>
+        </div>
+
+        <div class="map-card">
+            <iframe
+                src="https://www.google.com/maps?q=Avenida%20Boa%20Viagem%201720%20Recife&output=embed"
+                width="100%"
+                height="100%"
+                style="border:0; filter: grayscale(1) invert(1) contrast(1.1);"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Restaurante Aurora. Todos os direitos reservados.</p>
+        <a href="#topo">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
